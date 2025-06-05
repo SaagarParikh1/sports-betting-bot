@@ -1,0 +1,77 @@
+body {
+  background: #121212 !important;
+  color: #e0e0e0 !important;
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, .card, .nav-link, .btn, input {
+  color: #e0e0e0 !important;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Tabs */
+.nav-tabs {
+  border-bottom: 1px solid #333;
+}
+
+.nav-tabs .nav-link {
+  color: #aaa !important;
+  background: #1e1e1e !important;
+  border: none !important;
+  border-radius: 4px 4px 0 0;
+  margin: 0 5px;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #00bcd4 !important;
+  color: #121212 !important;
+}
+
+/* Cards */
+.card {
+  background: #1e1e1e !important;
+  border: none !important;
+  color: #e0e0e0 !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.card-title {
+  color: #00bcd4 !important;
+}
+
+/* Buttons */
+button, .btn {
+  background-color: #00bcd4 !important;
+  color: #121212 !important;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+button:hover, .btn:hover {
+  background-color: #00acc1 !important;
+  color: #fff !important;
+}
+
+/* Inputs */
+input, .form-control {
+  background: #2a2a2a !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #444 !important;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: #777 !important;
+}
+
+p {
+  color: #ccc !important;
+}
