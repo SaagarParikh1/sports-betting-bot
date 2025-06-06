@@ -1,12 +1,15 @@
 body {
   background: #121212 !important;
   color: #e0e0e0 !important;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p, span, .card, .nav-link, .btn, input {
-  color: #e0e0e0 !important;
+h1, h2 {
+  color: #00bcd4;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(42, 198, 246, 0.5);
 }
 
 .container {
@@ -16,62 +19,79 @@ h1, h2, h3, h4, h5, h6, p, span, .card, .nav-link, .btn, input {
 }
 
 /* Tabs */
-.nav-tabs {
-  border-bottom: 1px solid #333;
-}
 
 .nav-tabs .nav-link {
-  color: #aaa !important;
-  background: #1e1e1e !important;
-  border: none !important;
+  color: #aaa;
+  background: #1e1e1e;
+  border: none;
   border-radius: 4px 4px 0 0;
   margin: 0 5px;
+  font-size: 1.1rem;
 }
 
 .nav-tabs .nav-link.active {
-  background-color: #00bcd4 !important;
-  color: #121212 !important;
+  background-color: #00bcd4;
+  color: #121212;
+  font-weight: bold;
 }
+
+
+section {
+  border-bottom: 1px solid #333;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
 
 /* Cards */
 .card {
-  background: #1e1e1e !important;
-  border: none !important;
-  color: #e0e0e0 !important;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  background: #1e1e1e;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+  color: #e0e0e0;
+  margin-bottom: 1rem;
 }
 
 .card-title {
-  color: #00bcd4 !important;
+  color: #00bcd4;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 /* Buttons */
 button, .btn {
-  background-color: #00bcd4 !important;
-  color: #121212 !important;
+  background-color: #00bcd4;
+  color: #121212;
   border: none;
-  padding: 8px 16px;
-  border-radius: 20px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
 button:hover, .btn:hover {
-  background-color: #00acc1 !important;
-  color: #fff !important;
+  background-color: #00acc1;
+  color: #fff;
 }
 
 /* Inputs */
-input, .form-control {
-  background: #2a2a2a !important;
-  color: #e0e0e0 !important;
-  border: 1px solid #444 !important;
-  border-radius: 4px;
+input[type="text"], .form-control {
+  background: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 10px;
 }
 
-input::placeholder {
-  color: #777 !important;
+input[type="text"]::placeholder {
+  color: #777;
 }
 
 p {
-  color: #ccc !important;
+  margin: 5px 0;
+  color: #ccc;
+  font-size: 1rem;
 }
