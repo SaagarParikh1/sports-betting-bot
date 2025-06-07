@@ -95,3 +95,34 @@ p {
   color: #ccc;
   font-size: 1rem;
 }
+
+.custom-pick-card {
+  background: #1e1e1e;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  color: #e0e0e0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-pick-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #00bcd4;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+button, .btn {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
